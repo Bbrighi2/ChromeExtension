@@ -1,6 +1,6 @@
 {
   "name": "Brandon & Jim's Pride Chrome Extension",
-  "version": "1.4",
+  "version": "1.5",
   "description": "Provides a Pride Rainbow Boarder around your pages!",
   "manifest_version": 2,
   "browser_action": {
