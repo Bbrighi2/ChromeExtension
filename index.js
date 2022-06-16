@@ -1,9 +1,7 @@
 /* eslint-disable no-undef */
-window.onload = function () {
+window.onload = () => {
   const css = document.createElement('style');
-  css.appendChild(
-    document.createTextNode(
-      `
+  css.appendChild(document.createTextNode(`
       html {
       border: 20px solid;
       border-image-source: url('./RainbowSinebow22px50msLtoR.gif');
@@ -16,8 +14,6 @@ window.onload = function () {
       border-image-slice: 10%;
       border-image-repeat: stretch, round;    
       }
-      `
-    )
-  );
-  document.getElementsByTagName('head')[0].appendChild(css); // Specifies where to place the css
+      `));
+  document.getElementsByTagName('head')[0].appendChild(css);
 };
