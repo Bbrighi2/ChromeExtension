@@ -12,7 +12,7 @@
     }
   ],
   "icons": {
-    "16": "./rainbow16.png",
+    "16": "/rainbow16.png",
     "48": "/rainbow48.png",
     "128": "/rainbow128.png"
   },
