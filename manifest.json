@@ -1,25 +1,20 @@
 {
-    "name": "Hackathon Chrome Extension",
-    "version": "1.0",
-    "manifest_version": 2,
-    "browser_action": {         
-      "default_popup": "popup.html"
-    },
-     "content_scripts": [
-        {
-          "matches": [
-            "<all_urls>"
-          ],
-          "js": ["main.js"]
-        }
-      ], 
-      "icons": {
-        "16": "/iconMichael.png",
-        "48": "/iconMichael.png",
-        "128": "/iconMichael.png"
-      }
+  "name": "Brandon & Jim's Pride Chrome Extension",
+  "version": "1.2",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["index.js"]
+    }
+  ],
+  "icons": {
+    "16": "./rainbow16.png",
+    "48": "/rainbow48.png",
+    "128": "/rainbow128.png"
+  },
+  "web_accessible_resources": ["/RainbowSinebow22px50msLtoR.gif"]
 }
-
-
-
-  
