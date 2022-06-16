@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 window.onload = function () {
   const css = document.createElement('style');
   css.appendChild(
